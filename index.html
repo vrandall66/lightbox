@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Costuming for Theatre and Film</title>
+	<link href="styles.css" rel="stylesheet" >
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+		
+	<h1>Best Broadway Costumes Over the Years</h1>
+		<figure class="row">
+			<figure class="col">
+				<img src="images/anastasia.jpg" onclick="openLightbox();toslide(1)" alt="Anastasia in her red and gold ballgown" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/animalsLionKing.png" onclick="openLightbox();toslide(2)" alt="Zazu with parade of animals" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/beOurGuest.jpg" onclick="openLightbox();toslide(3)" alt="Lumiere Cogsworth and Featherduster/Babette/Fifi" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/elphabaSkirt.jpg" onclick="openLightbox();toslide(4)" alt="Wicked, detail shot of Elphaba's second act skirt" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/flyingMonkey.jpg" onclick="openLightbox();toslide(5)" alt="Wicked, Flying Monkey" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/hamilton.jpg" onclick="openLightbox();toslide(6)" alt="Some company members of Hamilton in costume for a magazine special" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/hamiltonJefferson.jpg" onclick="openLightbox();toslide(7)" alt="Thomas Jefferson and ensemble from Hamilton" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/cats.jpg" onclick="openLightbox();toslide(8)" alt="Characters from CATS, the Musical" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/lesMis.jpg" onclick="openLightbox();toslide(9)" alt="Ensemble members from Les Miserables" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/masquerade.jpg" onclick="openLightbox();toslide(10)" alt="Phantom of the Opera's play within a play; the opera star character in her performance dress" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/phantomMasquerade.jpg" onclick="openLightbox();toslide(11)" alt="Phantom of the Opera's Masquerade of the Red Death" class="gallery">
+			</dfigureiv>
+			<figure class="col">
+				<img src="images/scarLionKing.jpg" onclick="openLightbox();toslide(12)" alt="Close up of Scar in The Lion King" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/somethingRotten.jpg" onclick="openLightbox();toslide(13)" alt="Something Rotten ensemble" class="gallery">
+			</figure>
+			<difigurev class="col">
+				<img src="images/ursula.jpg" onclick="openLightbox();toslide(14)" alt="The Little Mermaid's Ursula" class="gallery">
+			</figure>
+			<figure class="col">
+				<img src="images/wickedEnsemble.jpg" onclick="openLightbox();toslide(15)" alt="The company of Wicked in Oz" class="gallery">
+			</figure>
+		</figure>
+
+<figure id="Lightbox" class="modal">
+	<span class="close pointer" onclick="closeLightbox()">&times;</span>
+	<figure class="modal-content">
+		<figure class="slide">
+			<img src="images/anastasia.jpg" class="image-slide" alt="Anastasia in her red and gold ballgown" />
+		</figure>
+		<figure class="slide">
+			<img src="images/animalsLionKing.png" class="image-slide" alt="Zazu with parade of animals" />
+		</figure>    
+		<figure class="slide">
+			<img src="images/beOurGuest.jpg" class="image-slide" alt="Lumiere Cogsworth and Featherduster/Babette/Fifi" />
+		</figure>
+		<figure class="slide">
+			<img src="images/elphabaSkirt.jpg" class="image-slide" alt="Wicked, detail shot of Elphaba's second act skirt" />
+		</figure>
+		<figure class="slide">
+			<img src="images/flyingMonkey.jpg" class="image-slide" alt="Wicked, Flying Monkey" />
+		</figure>    
+		<figure class="slide">
+			<img src="images/hamilton.jpg" class="image-slide" alt="Some company members of Hamilton in costume for a magazine special" />
+		</figure>
+		<figure class="slide">
+			<img src="images/hamiltonJefferson.jpg" class="image-slide" alt="Thomas Jefferson and ensemble from Hamilton" />
+		</figure>
+		<figure class="slide">
+			<img src="images/cats.jpg" class="image-slide" alt="Characters from CATS, the Musical" />
+		</figure>    
+		<figure class="slide">
+			<img src="images/lesMis.jpg" class="image-slide" alt="Ensemble members from Les Miserables" />
+		</figure>
+		<figure class="slide">
+			<img src="images/masquerade.jpg" class="image-slide" alt="Phantom of the Opera's play within a play; the opera star character in her performance dress" />
+		</figure>
+		<figure class="slide">
+			<img src="images/phantomMasquerade.jpg" class="image-slide" alt="Phantom of the Opera's Masquerade of the Red Death" />
+		</figure>    
+		<figure class="slide">
+			<img src="images/scarLionKing.jpg" class="image-slide" alt="Close up of Scar in The Lion King" />
+		</figure>
+		<figure class="slide">
+			<img src="images/somethingRotten.jpg" class="image-slide" alt="Something Rotten ensemble" />
+		</figure>
+		<figure class="slide">
+			<img src="images/ursula.jpg" class="image-slide" alt="The Little Mermaid's Ursula" />
+		</figure>    
+		<figure class="slide">
+			<img src="images/wickedEnsemble.jpg" class="image-slide" alt="The company of Wicked in Oz" />
+		</figure>
+
+	<a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+	<a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+	<aside class="dots">
+      <figure class="col">
+        <img src="images/anastasia.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="Anastasia in her red and gold ballgown" />
+      </figure>
+      <difigurev class="col">
+        <img src="images/animalsLionKing.png" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="Zazu with parade of animals" />
+      </figure>
+      <figure class="col">
+        <img src="images/beOurGuest.jpg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Lumiere Cogsworth and Featherduster/Babette/Fifi" />
+      </figure>
+      <figure class="col">
+        <img src="images/elphabaSkirt.jpg" class="modal-preview hover-shadow" onclick="toSlide(4)" alt="Wicked, detail shot of Elphaba's second act skirt" />
+      </figure>
+      <figure class="col">
+        <img src="images/flyingMonkey.jpg" class="modal-preview hover-shadow" onclick="toSlide(5)" alt="Wicked, Flying Monkey" />
+      </figure>
+      <figure class="col">
+        <img src="images/hamilton.jpg" class="modal-preview hover-shadow" onclick="toSlide(6)" alt="Some company members of Hamilton in costume for a magazine special" />
+      </figure>
+      <figure class="col">
+        <img src="images/hamiltonJefferson.jpg" class="modal-preview hover-shadow" onclick="toSlide(7)" alt="Thomas Jefferson and ensemble from Hamilton" />
+      </figure>
+      <figure class="col">
+        <img src="images/cats.jpg" class="modal-preview hover-shadow" onclick="toSlide(8)" alt="Characters from CATS, the Musical" />
+      </figure>
+      <figure class="col">
+        <img src="images/lesMis.jpg" class="modal-preview hover-shadow" onclick="toSlide(9)" alt="Ensemble members from Les Miserables" />
+      </figure>
+      <figure class="col">
+        <img src="images/masquerade.jpg" class="modal-preview hover-shadow" onclick="toSlide(10)" alt="Phantom of the Opera's play within a play; the opera star character in her performance dress" />
+      </figure>
+      <figure class="col">
+        <img src="images/phantomMasquerade.jpg" class="modal-preview hover-shadow" onclick="toSlide(11)" alt="Phantom of the Opera's Masquerade of the Red Death" />
+      </figure>
+      <figure class="col">
+        <img src="images/scarLionKing.jpg" class="modal-preview hover-shadow" onclick="toSlide(12)" alt="Close up of Scar in The Lion King" />
+      </figure>
+      <figure class="col">
+        <img src="images/somethingRotten.jpg" class="modal-preview hover-shadow" onclick="toSlide(13)" alt="Something Rotten ensemble" />
+      </figure>
+      <figure class="col">
+        <img src="images/ursula.jpg" class="modal-preview hover-shadow" onclick="toSlide(14)" alt="The Little Mermaid's Ursula" />
+      </figure>
+      <figure class="col">
+        <img src="images/wickedEnsemble.jpg" class="modal-preview hover-shadow" onclick="toSlide(15)" alt="The company of Wicked in Oz" />
+      </figure>
+    </figure>
+    </aside>
+
+</body>
+</html>
